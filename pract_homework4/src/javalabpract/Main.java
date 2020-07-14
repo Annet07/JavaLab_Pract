@@ -15,7 +15,12 @@ public class Main {
     public static void main(String[] args) throws SQLException {
         Connection connection = DriverManager.getConnection(URL, USER, PASSWORD);
         StudentsRepository studentsRepository = new StudentsRepositoryJdbcImpl(connection);
-        System.out.println(studentsRepository.findAllByAge(19));
+        /*Student student = new Student(3, "Лёха", "Дьяконов", 38, 902);
+        studentsRepository.save(student);
+        studentsRepository.update(student);
+        studentsRepository.findAllByAge(19);
+        studentsRepository.findAllById(1);*/
+        System.out.println(studentsRepository.findAll());
         connection.close();
     }
 }
