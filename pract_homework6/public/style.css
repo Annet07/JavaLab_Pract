@@ -1,0 +1,30 @@
+body{background-color: #EE82EE}
+.blackBMW{font-family: Bradley Hand, cursive; color: #00FFFF;}
+.unicorn img {float: right;}
+.navbar {
+  background-color: #00FFFF;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: center;
+  display: block;
+  color: #00FFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #00FFFF;
+  color: #00FFFF;
+}
+
+.navbar a.active {
+  background-color: #EE82EE;
+  color: white;
+}
