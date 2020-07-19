@@ -6,12 +6,12 @@
 		<link rel="stylesheet" href="styleRequest.css">
 </head>
 <body>
-	<form method="post">
+	<form method="post" action="/love">
 		<fieldset>
 			<legend> Контактная информация</legend>
-			<label> Имя <input type ="text" required placeholder="Введите имя"> </label>
-			<label> Фамилия <input type ="text" required placeholder="Введите фамилию"> </label>
-			<label> E-mail <input type ="text" required placeholder="Введите Ваш E-mail"> </label>
+			<label> Имя <input type ="text" required placeholder="Введите имя" name="name" id="name"> </label>
+			<label> Фамилия <input type ="text" required placeholder="Введите фамилию" name="surname" id="surname"> </label>
+			<label> E-mail <input type ="text" required placeholder="Введите Ваш E-mail" name="email" id="email"> </label>
 		</fieldset>
 		<button type="submit">Отправить</button>
 	</form>

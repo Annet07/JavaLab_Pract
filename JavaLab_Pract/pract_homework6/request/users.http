@@ -1,0 +1,9 @@
+GET http://localhost/users
+
+
+POSR http://localhost/users
+Content-Type: application/json
+
+{
+	"name" : "MegaMarsel"
+}
